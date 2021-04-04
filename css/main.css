@@ -2,9 +2,7 @@ html {
   box-sizing: border-box;
   line-height: 1.5;
   font-family: "Georgia", serif;
-  display: grid;
-  grid-template-columns: 1fr;
-  justify-content: center;
+
 }
 
 *, *::before, *::after {
@@ -33,9 +31,10 @@ main > ol {
 }
 
 main li {
-  display: flex;
-  flex-direction: column;
-  width: 20em;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  width: 50em;
   background-color: #ede3db;
   list-style-type: none;
   border-style: solid;
